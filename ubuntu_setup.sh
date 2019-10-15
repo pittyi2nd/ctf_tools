@@ -13,11 +13,14 @@ yes | sudo apt upgrade
 # tools
 yes | sudo apt install binutils
 yes | sudo apt install git
-yes | sudo apt install make
 yes | sudo apt install clang
+yes | sudo apt install make
+yes | sudo apt install ruby
+yes | sudo apt install openjdk-8-jdk
+yes | sudo apt install openjdk-8-jre
 yes | sudo apt install fish
 yes | sudo apt install nasm
-yes | sudo apt install base
+yes | sudo apt install basez
 yes | sudo apt install john
 yes | sudo apt install hydra
 yes | sudo apt install wireshark
@@ -36,7 +39,13 @@ yes | sudo apt install outguess
 yes | sudo apt install steghide
 yes | sudo apt install testdisk
 yes | sudo apt install pngcheck
+
+sudo snap install code --classic
+
 git clone https://github.com/radareorg/radare2.git
 sudo radare2/sys/install.sh
+
 git clone https://github.com/longld/peda.git ~/peda
 echo source ~/peda/peda.py >> ~/.gdbinit
+
+sudo chsh -s /usr/bin/fish
