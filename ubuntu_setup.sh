@@ -15,6 +15,8 @@ yes | sudo apt install binutils
 yes | sudo apt install git
 yes | sudo apt install clang
 yes | sudo apt install make
+yes | sudo apt install cmake
+yes | sudo apt install automake
 yes | sudo apt install ruby
 yes | sudo apt install openjdk-8-jdk
 yes | sudo apt install openjdk-8-jre
