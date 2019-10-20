@@ -21,6 +21,7 @@ yes | sudo apt install ruby
 yes | sudo apt install openjdk-8-jdk
 yes | sudo apt install openjdk-8-jre
 yes | sudo apt install fish
+yes | sudo apt install hexedit
 yes | sudo apt install nasm
 yes | sudo apt install basez
 yes | sudo apt install john
