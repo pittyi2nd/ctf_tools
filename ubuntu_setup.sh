@@ -43,6 +43,8 @@ yes | sudo apt install steghide
 yes | sudo apt install testdisk
 yes | sudo apt install pngcheck
 
+yes | sudo apt autoremove
+
 sudo snap install code --classic
 
 git clone https://github.com/radareorg/radare2.git
