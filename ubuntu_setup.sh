@@ -23,6 +23,7 @@ yes | sudo apt install openjdk-8-jre
 yes | sudo apt install fish
 yes | sudo apt install hexedit
 yes | sudo apt install nasm
+yes | sudo apt install upx
 yes | sudo apt install basez
 yes | sudo apt install john
 yes | sudo apt install hydra
