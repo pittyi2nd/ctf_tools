@@ -12,6 +12,7 @@ yes | sudo apt upgrade
 
 # tools
 yes | sudo apt install binutils
+yes | sudo apt install binutils-multiarch
 yes | sudo apt install git
 yes | sudo apt install clang
 yes | sudo apt install make
@@ -22,6 +23,7 @@ yes | sudo apt install openjdk-8-jdk
 yes | sudo apt install openjdk-8-jre
 yes | sudo apt install fish
 yes | sudo apt install hexedit
+yes | sudo apt install apktool
 yes | sudo apt install nasm
 yes | sudo apt install upx
 yes | sudo apt install basez
