@@ -56,4 +56,4 @@ sudo ~/radare2/sys/install.sh
 git clone https://github.com/longld/peda.git ~/peda
 echo source ~/peda/peda.py >> ~/.gdbinit
 
-sudo chsh -s /usr/bin/fish
+chsh -s /usr/bin/fish
