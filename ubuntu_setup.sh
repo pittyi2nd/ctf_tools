@@ -50,7 +50,7 @@ yes | sudo apt autoremove
 
 sudo snap install code --classic
 
-git clone https://github.com/radareorg/radare2.git ~/
+git clone https://github.com/radareorg/radare2.git ~/radare2
 sudo ~/radare2/sys/install.sh
 
 git clone https://github.com/longld/peda.git ~/peda
