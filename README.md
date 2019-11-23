@@ -2,9 +2,11 @@
 
 strings
 
-gdb
+readelf -a
 
-objdump
+gdb -q
+
+objdump -d filename -M intel
 
 radare2
 
@@ -14,10 +16,13 @@ nasm
 
 hexdump
 
+apktool
+
+upx (pack, unpack)
 
 # crypto
 
-base
+baseXX
 
 john
 
@@ -47,7 +52,7 @@ wifite
 
 # forensic
 
-binwalk
+binwalk (-e)
 
 foremost
 
